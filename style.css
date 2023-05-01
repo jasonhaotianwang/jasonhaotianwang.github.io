@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Typography */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4c4c4c;
+    padding: 1.5rem 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Skills Section */
+  .skills {
+    margin-bottom: 2rem;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    display: inline-block;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Contact Section */
+  .contact {
+    margin-bottom: 2rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4c4c4c;
+    text-align: center;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  
